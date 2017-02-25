@@ -1,221 +1,248 @@
-a, input, td, div {
-  border-radius: 0px !important;
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-  border-bottom-left-radius: 0px;
-}
+@-moz-document domain("osu.ppy.sh") {
+  .beatmap,
+  .beatmap a,
+  .bmlistt,
+  .changelog_area,
+  .playstyle-container,
+  .profile-tabs tbody tr td,
+  .profileGameModes div a,
+  input {
+    border-radius              : 0px !important;
+    border-top-left-radius     : 0px;
+    border-top-right-radius    : 0px;
+    border-bottom-right-radius : 0px;
+    border-bottom-left-radius  : 0px;
+  }
 
-.profileStatLine {
-  border-bottom: none;
-}
+  .beatmap {
+    border : solid 1px #000000;
+  }
 
-#searchArea {
-  border-bottom: 1px solid #404040;
-}
+  .active {
+    background : #523b8a !important;
+  }
 
-.levelPercent {
-  background: #000000;
-  border-right: none;
-}
+  .avatar-holder {
+    padding : 0px;
+    border  : 1px solid #5f5f5f;
+  }
 
-.bmlist-options > a,
-.bodytopbg,
-.icon-comments,
-div.header.clickable-cell {
-  background : rgb(25, 25, 25);
-}
+  .tablebg tbody tr td {
+    border : none;
+  }
 
-#playstats,
-#searchArea a.selected,
-#searchArea a:hover,
-#tablist a,
-.beatmapListing > tbody > tr > th,
-.beatmapListing th,
-.bmlist-options,
-.content-infoline,
-.frozen-header,
-.historyp,
-.profileStatHeader,
-.profileStatLine,
-.tablebg.forum_table > tbody > tr > td.row1,
-.tablebg.forum_table > tbody > tr > td.row2,
-div#mw-head-base,
-div#mw-page-base {
-  background : rgb(30, 30, 30);
-}
+  .profileStatLine {
+    border-bottom : none;
+  }
 
-.beatmap,
-.beatmap:hover,
-.changelog_area,
-.profile-tabs td,
-.profileGameModes a,
-.tablebg .row1:hover,
-.tablebg .row2:hover,
-input,
-input:focus,
-input:hover {
-  border     : 1px solid rgb(70, 70, 70);
-  background : /*[[elemBackground]]*/;
-}
+  #searchArea dl {
+    border-bottom : 1px solid #404040;
+  }
 
-#tablist a:hover,
-.content-with-bg,
-.footer,
-.pack-msg,
-.sf-menu a:focus,
-.sf-menu a:hover,
-.sf-menu li.sfHover {
-  color      : /*[[textColor]]*/;
-  background : rgb(40, 40, 40);
-}
+  .levelPercent {
+    border-right : none;
+    background   : #000000;
+  }
 
-.artist {
-  color : /*[[textColor]]*/ !important;
-}
+  .bmlist-options > a,
+  .bodytopbg,
+  .icon-comments,
+  div.header.clickable-cell {
+    background : rgb(25, 25, 25);
+  }
 
-.blurb,
-.changelog-text,
-.dialog-area,
-.login-dropdown,
-.news-text,
-.peppynote,
-.playstyle-container,
-.postRight,
-.postTime,
-.postbody,
-.quotecontent,
-.reasonpanels > li,
-.reasonpanels > li:hover > i,
-.row1,
-.row1p,
-.sectionContents,
-.tablebgside > tbody > tr > td,
-li.sfHover > ul > li > a {
-  background : rgb(60, 60, 60);
-}
+  #playstats,
+  #searchArea a.selected,
+  #searchArea a:hover,
+  #tablist a,
+  .beatmapListing > tbody > tr > th,
+  .beatmapListing th,
+  .bmlist-options,
+  .content-infoline,
+  .frozen-header,
+  .historyp,
+  .profileStatHeader,
+  .profileStatLine,
+  .tablebg.forum_table > tbody > tr > td.row1,
+  .tablebg.forum_table > tbody > tr > td.row2,
+  div#mw-head-base,
+  div#mw-page-base {
+    background : rgb(30, 30, 30);
+  }
 
-#songinfo td.colour,
-.final_footer,
-.postLeft,
-.posttext,
-.prof-beatmap,
-.row2p,
-.row2,
-div#tablist,
-div.mw-panel,
-table#songinfo {
-  background : rgb(50, 50, 50);
-  color: /*[[textColor]]*/;
-}
+  .beatmap,
+  .beatmap:hover,
+  .beatmap .small-details,
+  .changelog_area,
+  .profile-tabs td,
+  .profileGameModes a,
+  .tablebg .row1:hover,
+  .tablebg .row2:hover,
+  input,
+  input:focus,
+  input:hover {
+    background : /*[[elemBackground]]*/;
+  }
 
-.beatmap .tags a:hover,
-.beatmapListing tr.row1p:hover,
-.beatmapListing tr.row2p:hover {
-  background : rgb(80, 80, 80);
-}
+  #tablist a:hover,
+  .content-with-bg,
+  .footer,
+  .pack-msg,
+  .sf-menu a:focus,
+  .sf-menu a:hover,
+  .sf-menu li.sfHover {
+    color      : /*[[textColor]]*/;
+    background : rgb(40, 40, 40);
+  }
 
-#toc,
-.wikitable th,
-table.wikitable {
-  background       : rgb(50, 50, 50);
-  background-color : rgb(50, 50, 50);
-}
+  .artist {
+    color : /*[[textColor]]*/ !important;
+  }
 
-.beatmap .tags a {
-  color      : black;
-  border     : rgb(70, 70, 70);
-  background : rgb(60, 60, 60);
-}
+  .blurb,
+  .changelog-text,
+  .dialog-area,
+  .login-dropdown,
+  .news-text,
+  .peppynote,
+  .playstyle-container,
+  .postRight,
+  .postTime,
+  .postbody,
+  .quotecontent,
+  .reasonpanels > li,
+  .reasonpanels > li:hover > i,
+  .row1,
+  .row1p,
+  .sectionContents,
+  .tablebgside > tbody > tr > td,
+  li.sfHover > ul > li > a {
+    background : rgb(60, 60, 60);
+  }
 
-.row1p > td > a,
-.row1p > td > a:hover,
-.row2p > td > a,
-.row2p > td > a:hover {
-  color : rgb(170, 170, 170);
-}
+  #songinfo td.colour,
+  .final_footer,
+  .postLeft,
+  .posttext,
+  .prof-beatmap,
+  .row2p,
+  .row2,
+  div#tablist,
+  div.mw-panel,
+  table#songinfo {
+    color      : /*[[textColor]]*/;
+    background : rgb(50, 50, 50);
+  }
 
-#songinfo > tbody > tr > td > a,
-#songinfo td.colour,
-#songinfo td.colour > a,
-.blurb,
-.login-dropdown > form > div.smaller > a,
-.news-text,
-.postTime > a,
-.row1 > td > a,
-.row2 > td > a,
-div.mw-panel div.portal div.body ul li a,
-div.mw-panel div.portal h5 {
-  color : /*[[textColor]]*/;
-}
+  .beatmap .tags a:hover,
+  .beatmapListing tr.row1p:hover,
+  .beatmapListing tr.row2p:hover {
+    background : rgb(80, 80, 80);
+  }
 
-#songinfo td {
-  border-bottom : 1px solid rgb(80, 80, 80);
-}
+  #toc,
+  .wikitable th,
+  table.wikitable {
+    background       : rgb(50, 50, 50);
+    background-color : rgb(50, 50, 50);
+  }
 
-#tablist a.active:link,
-#tablist a.active:visited {
-  background : rgb(10, 10, 10);
-}
+  .beatmap .tags a {
+    color      : black;
+    border     : rgb(70, 70, 70);
+    background : rgb(60, 60, 60);
+  }
 
-sf-menu a {
-  color : #77297d;
-}
+  .row1p > td > a,
+  .row1p > td > a:hover,
+  .row2p > td > a,
+  .row2p > td > a:hover {
+    color : rgb(170, 170, 170);
+  }
 
-#general > font,
-.beatmap .title:hover,
-.sf-menu a:visited,
-.sf-menu a,
-a {
-  color: /*[[highlightColor]]*/ !important;
-}
+  #songinfo > tbody > tr > td > a,
+  #songinfo td.colour,
+  #songinfo td.colour > a,
+  .blurb,
+  .login-dropdown > form > div.smaller > a,
+  .news-text,
+  .postTime > a,
+  .row1 > td > a,
+  .row2 > td > a,
+  div.mw-panel div.portal div.body ul li a,
+  div.mw-panel div.portal h5 {
+    color : /*[[textColor]]*/;
+  }
 
-.blurb,
-.main-box,
-.news-text {
-  border : 1px solid rgb(70,70,70);
-}
+  #songinfo td {
+    border-bottom : 1px solid rgb(80, 80, 80);
+  }
 
-.blog-post {
-  background : none;
-}
+  #tablist a.active:link,
+  #tablist a.active:visited {
+    background : rgb(10, 10, 10);
+  }
 
-.content-with-bg > h1,
-.content-with-bg > h2,
-.forum_posts_table tr:hover,
-.login-open-button,
-.login-open-button:hover,
-.new-user-button:hover,
-.ntitle,
-.prof-beatmap .pp-display,
-.profileGameModes a:hover,
-.row1,
-.row2,
-h1,
-h2 {
-  text-shadow : none;
-}
+  sf-menu a {
+    color : #77297d;
+  }
 
-div#coolheader {
-  display : none;
-}
+  #general > font,
+  .beatmap .title:hover,
+  .sf-menu a:visited,
+  .sf-menu a,
+  a {
+    color : /*[[accentColor]]*/ !important;
+  }
 
-.beatmap .small-details,
-.changelog_area,
-input,
-input:focus {
-  color : rgb(100,100,100);
-}
+  .blurb,
+  .main-box,
+  .news-text {
+    border : 1px solid rgb(70,70,70);
+  }
 
-input:focus {
-  box-shadow : none;
-}
+  .blog-post {
+    background : none;
+  }
 
-#songinfo,
-#tablist {
-  border-bottom : 1px solid rgb(168,51,138);
-}
+  .content-with-bg > h1,
+  .content-with-bg > h2,
+  .forum_posts_table tr:hover,
+  .login-open-button,
+  .login-open-button:hover,
+  .new-user-button:hover,
+  .ntitle,
+  .prof-beatmap .pp-display,
+  .profileGameModes a:hover,
+  .row1,
+  .row2,
+  h1,
+  h2 {
+    text-shadow : none;
+  }
 
-.posttext {
-  border : 1px solid rgb(70,70,70);
+  div#coolheader {
+    display : none;
+  }
+
+  .changelog_area,
+  input,
+  input:focus,
+  textarea {
+    color      : #9292de;
+    background : #000000 !important;
+  }
+
+  input:focus {
+    box-shadow : none;
+  }
+
+  #songinfo,
+  #tablist {
+    border-bottom : 1px solid rgb(168,51,138);
+  }
+
+  .posttext {
+    border : 1px solid rgb(70,70,70);
+  }
 }
