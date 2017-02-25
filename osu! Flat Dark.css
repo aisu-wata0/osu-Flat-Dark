@@ -18,6 +18,10 @@
     border : solid 1px #000000;
   }
 
+	.spoiler, .spoiler_body span, .spoiler_body {
+		background: #000000 !important;
+	}
+
   .active {
     background : #523b8a !important;
   }
